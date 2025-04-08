@@ -4,6 +4,7 @@ import "./globals.css";
 import Header from "@/components/nav/header";
 import Footer from "@/components/footer/footer";
 import { ClerkProvider } from "@clerk/nextjs";
+import { Toaster } from "@/components/ui/sonner";
 
 // Load fonts with CSS variable names
 const medievalSharp = MedievalSharp({
@@ -54,6 +55,7 @@ export default function RootLayout({
                               <Header />
                               <main className="flex-grow">{children}</main>
                               <Footer />
+                              <Toaster />
                          </div>
                     </body>
                </html>
