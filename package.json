@@ -9,14 +9,21 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@clerk/nextjs": "^6.14.0",
     "@radix-ui/react-slot": "^1.1.2",
+    "@react-three/fiber": "9.0.0-alpha.8",
+    "@tabler/icons-react": "^3.31.0",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
+    "framer-motion": "^12.6.3",
     "lucide-react": "^0.487.0",
+    "motion": "^12.6.3",
     "next": "15.2.4",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
+    "react-dropzone": "^14.3.8",
     "tailwind-merge": "^3.2.0",
+    "three": "^0.175.0",
     "tw-animate-css": "^1.2.5"
   },
   "devDependencies": {
